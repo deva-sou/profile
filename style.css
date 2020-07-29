@@ -9,11 +9,13 @@ h1{
   font-weight: bold;
   color: rgba(30,30,30,0.9);
   margin-bottom: 0;
-  text-decoration: underline;
 }
 
 h2{
   color: green;
+  font-size: 20px;
+  border-color: : black;
+  text-decoration: underline;
 }
 
 body {
@@ -27,6 +29,9 @@ i {
 
 i:hover{
   background-color: pink;
+  border-radius: 50%;
+  font-size: 20px;
+
 }
 
 .rounded-image {
@@ -40,9 +45,14 @@ i:hover{
 .card-white {
   background: white;
   padding: 15px;
+  padding-bottom: 50px;
+  width: 50%;
   border: 10px lightgrey;
-  max-width: 75px;
-  margin: 25px 75px auto;
+  align-content: : center;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
   -webkit-box-shadow: 3px 10px 20px 4px rgba(0,0,0,0.42);
   -moz-box-shadow: 3px 10px 20px 4px rgba(0,0,0,0.42);
   box-shadow: 3px 10px 20px 4px rgba(0,0,0,0.42);
@@ -59,3 +69,20 @@ i:hover{
   padding: 0px 20px;
 }
 
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 7px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: red;
+  font-size: 17px;
+
+}
